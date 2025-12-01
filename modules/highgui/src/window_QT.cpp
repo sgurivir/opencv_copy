@@ -1740,10 +1740,6 @@ CvWindow::CvWindow(QString name, int arg2)
     show();
 }
 
-CvWindow::~CvWindow()
-{
-    delete myView;
-}
 
 void CvWindow::setMouseCallBack(CvMouseCallback callback, void* param)
 {
